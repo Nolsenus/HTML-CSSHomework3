@@ -139,14 +139,14 @@ a::after {
     align-self: center;
 }
 
-.footer {
+.partners {
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 3rem;
 }
 
-.footer img {
+.partners img {
     width: 10rem;
     height: 3.125rem;
     flex-shrink: 0;
@@ -179,4 +179,133 @@ a::after {
 
 .dropdown:hover .dropbtn {
     background-color: #3e8e41;
+}
+
+.service-icon {
+    width: 4.375rem;
+    height: 4.375rem;
+}
+
+.services {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5.62rem;
+}
+
+.service {
+    width: 19.375rem;
+    margin-top: 8.75rem;
+}
+
+.service-header {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 1.56rem;
+}
+
+.service-paragraph {
+    color: #666;
+    font-family: Gilroy-Regular;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-top: 1.06rem;
+}
+
+.service-read-more {
+    margin-top: 1.56rem;
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 0.6875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.perks-outer {
+    background: #FAFAFA;
+}
+
+.perks-top-header {
+    margin-top: 13.56rem;
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 2.8125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.perks-top-paragraph {
+    width: 42.625rem;
+    margin-top: 1.19rem;
+    color: #666;
+    text-align: center;
+    font-family: Gilroy-Regular;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.perks-inner {
+    margin-top: 3.38rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0.56rem;
+}
+
+.perk {
+    text-align: center;
+}
+
+.perk-header {
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.perk-paragraph {
+    color: #AAA;
+    text-align: center;
+    font-family: Gilroy-Regular;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-top: 1.38rem;
+}
+
+.perk-learn-more {
+    margin-top: 2.44rem;
+    width: 9.375rem;
+    height: 3.125rem;
+    flex-shrink: 0;
+    border-radius: 3.125rem;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    color: #FFF;
+    font-family: Gilroy-Bold;
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+}
+
+#perk-middle {
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.10);
 }
